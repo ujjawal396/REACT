@@ -27,7 +27,7 @@ class App extends React.Component {
           }}
           value={this.state.currInput}
         />
-        <List tasks = {this.state.tasks}/>  
+        <List tasks = {this.state.tasks}/>  {/* yaha task ki jagah koi bhi name aa sakta h*/}
 
 
     
