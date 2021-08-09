@@ -18,7 +18,7 @@ class App extends React.Component {
           }}
 
           onKeyDown={(e) => {
-            if (e.key == "Enter") {
+            if (e.key === "Enter") {
               this.setState({
                 tasks: [...this.state.tasks, this.state.currInput],
                 currInput: "",
